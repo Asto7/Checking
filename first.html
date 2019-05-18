@@ -1,0 +1,19 @@
+<html><body><ol id="elem">
+  <li>Hello</li>
+  <li>World</li>
+</ol>
+
+<script>
+  function clear(elem) { 
+      var x=elem.childNodes;
+      x=Array.from(x);
+      for(let a of x){a.remove();}
+      alert(elem.children.length);
+      
+      
+      /* your code */ }
+
+  clear(elem); // clears the list
+</script></body>
+
+</html>
